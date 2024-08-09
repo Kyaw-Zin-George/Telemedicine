@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		263F2F6F2BBC151C00CCDC16 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 263F2F6E2BBC151C00CCDC16 /* FirebaseAuth */; };
+		263F2F732BBC151C00CCDC16 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 263F2F722BBC151C00CCDC16 /* FirebaseFirestore */; };
+		263F2F752BBC151C00CCDC16 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 263F2F742BBC151C00CCDC16 /* FirebaseFirestoreSwift */; };
+		263F2F772BBC151C00CCDC16 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 263F2F762BBC151C00CCDC16 /* FirebaseStorage */; };
+		263F2FA02BBD563A00CCDC16 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F2F9F2BBD563A00CCDC16 /* Appointment.swift */; };
+		263F2FB12BBDBB9900CCDC16 /* SpalshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F2FB02BBDBB9900CCDC16 /* SpalshView.swift */; };
+		263F2FB32BBDC22800CCDC16 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F2FB22BBDC22800CCDC16 /* Users.swift */; };
+		263F2FB62BBEA6ED00CCDC16 /* PatientUpcomingAppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F2FB52BBEA6ED00CCDC16 /* PatientUpcomingAppointmentView.swift */; };
+		263F2FB82BBEA70A00CCDC16 /* PatientHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F2FB72BBEA70A00CCDC16 /* PatientHomeView.swift */; };
+		263F2FBA2BBEA88800CCDC16 /* DoctorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F2FB92BBEA88800CCDC16 /* DoctorListView.swift */; };
+		263F2FBD2BBEB00600CCDC16 /* DoctorHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F2FBC2BBEB00600CCDC16 /* DoctorHomeView.swift */; };
+		263F2FBF2BBEBD3200CCDC16 /* DoctorUpcomingAppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F2FBE2BBEBD3200CCDC16 /* DoctorUpcomingAppointmentView.swift */; };
+		263F2FC12BBEC58B00CCDC16 /* DoctorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F2FC02BBEC58B00CCDC16 /* DoctorViewModel.swift */; };
+		263F2FC32BBECDDF00CCDC16 /* DoctorDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F2FC22BBECDDF00CCDC16 /* DoctorDetailsView.swift */; };
+		263F2FC52BBEE1D900CCDC16 /* BookingAppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F2FC42BBEE1D900CCDC16 /* BookingAppointmentView.swift */; };
+		263F2FC72BBEE33500CCDC16 /* AppointmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F2FC62BBEE33500CCDC16 /* AppointmentViewModel.swift */; };
+		263F2FC92BBEF0C900CCDC16 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F2FC82BBEF0C900CCDC16 /* CustomButton.swift */; };
+		263F2FCE2BC3889F00CCDC16 /* GenerateVideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F2FCD2BC3889F00CCDC16 /* GenerateVideoViewModel.swift */; };
+		263F2FD12BC4D96C00CCDC16 /* StreamVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 263F2FD02BC4D96C00CCDC16 /* StreamVideo */; };
+		263F2FD32BC4D96C00CCDC16 /* StreamVideoSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 263F2FD22BC4D96C00CCDC16 /* StreamVideoSwiftUI */; };
+		263F2FD52BC4D96C00CCDC16 /* StreamVideoUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 263F2FD42BC4D96C00CCDC16 /* StreamVideoUIKit */; };
+		263F2FD72BC5E41200CCDC16 /* AppointmentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F2FD62BC5E41200CCDC16 /* AppointmentRow.swift */; };
+		263F2FD92BC5E8D300CCDC16 /* AppointmentsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F2FD82BC5E8D300CCDC16 /* AppointmentsListView.swift */; };
+		263F2FDC2BC6AE6800CCDC16 /* PatientAppointmentDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F2FDB2BC6AE6800CCDC16 /* PatientAppointmentDetailsView.swift */; };
+		263F2FDF2BC70FB500CCDC16 /* VideoCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F2FDE2BC70FB500CCDC16 /* VideoCallView.swift */; };
+		263F2FE22BC73E4100CCDC16 /* VideoCallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F2FE12BC73E4100CCDC16 /* VideoCallManager.swift */; };
+		263F2FE42BC796AA00CCDC16 /* DoctorAppointmentDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263F2FE32BC796AA00CCDC16 /* DoctorAppointmentDetailsView.swift */; };
+		269993C42BBC0A8E00FBB016 /* DocTeleHavenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269993C32BBC0A8E00FBB016 /* DocTeleHavenApp.swift */; };
+		269993C62BBC0A8E00FBB016 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269993C52BBC0A8E00FBB016 /* ContentView.swift */; };
+		269993C82BBC0A9000FBB016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269993C72BBC0A9000FBB016 /* Assets.xcassets */; };
+		269993CB2BBC0A9000FBB016 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269993CA2BBC0A9000FBB016 /* Preview Assets.xcassets */; };
+		269993E62BBC0BDB00FBB016 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269993E52BBC0BDB00FBB016 /* AuthViewModel.swift */; };
+		269993E82BBC0C1400FBB016 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269993E72BBC0C1400FBB016 /* LoginView.swift */; };
+		269993EA2BBC0C3000FBB016 /* RegisterationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269993E92BBC0C3000FBB016 /* RegisterationView.swift */; };
+		269993ED2BBC0C8400FBB016 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269993EC2BBC0C8300FBB016 /* ProfileView.swift */; };
+		269993EF2BBC0CCD00FBB016 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269993EE2BBC0CCD00FBB016 /* InputView.swift */; };
+		269993F12BBC0CEB00FBB016 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269993F02BBC0CEB00FBB016 /* SettingsRowView.swift */; };
+		269993F52BBC0FCD00FBB016 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 269993F42BBC0FCD00FBB016 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		263F2F9F2BBD563A00CCDC16 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		263F2FB02BBDBB9900CCDC16 /* SpalshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpalshView.swift; sourceTree = "<group>"; };
+		263F2FB22BBDC22800CCDC16 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		263F2FB52BBEA6ED00CCDC16 /* PatientUpcomingAppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientUpcomingAppointmentView.swift; sourceTree = "<group>"; };
+		263F2FB72BBEA70A00CCDC16 /* PatientHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientHomeView.swift; sourceTree = "<group>"; };
+		263F2FB92BBEA88800CCDC16 /* DoctorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorListView.swift; sourceTree = "<group>"; };
+		263F2FBC2BBEB00600CCDC16 /* DoctorHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorHomeView.swift; sourceTree = "<group>"; };
+		263F2FBE2BBEBD3200CCDC16 /* DoctorUpcomingAppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorUpcomingAppointmentView.swift; sourceTree = "<group>"; };
+		263F2FC02BBEC58B00CCDC16 /* DoctorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorViewModel.swift; sourceTree = "<group>"; };
+		263F2FC22BBECDDF00CCDC16 /* DoctorDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDetailsView.swift; sourceTree = "<group>"; };
+		263F2FC42BBEE1D900CCDC16 /* BookingAppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingAppointmentView.swift; sourceTree = "<group>"; };
+		263F2FC62BBEE33500CCDC16 /* AppointmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewModel.swift; sourceTree = "<group>"; };
+		263F2FC82BBEF0C900CCDC16 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		263F2FCD2BC3889F00CCDC16 /* GenerateVideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateVideoViewModel.swift; sourceTree = "<group>"; };
+		263F2FD62BC5E41200CCDC16 /* AppointmentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentRow.swift; sourceTree = "<group>"; };
+		263F2FD82BC5E8D300CCDC16 /* AppointmentsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsListView.swift; sourceTree = "<group>"; };
+		263F2FDA2BC6376C00CCDC16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		263F2FDB2BC6AE6800CCDC16 /* PatientAppointmentDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientAppointmentDetailsView.swift; sourceTree = "<group>"; };
+		263F2FDE2BC70FB500CCDC16 /* VideoCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallView.swift; sourceTree = "<group>"; };
+		263F2FE12BC73E4100CCDC16 /* VideoCallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallManager.swift; sourceTree = "<group>"; };
+		263F2FE32BC796AA00CCDC16 /* DoctorAppointmentDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorAppointmentDetailsView.swift; sourceTree = "<group>"; };
+		269993C02BBC0A8E00FBB016 /* DocTeleHaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocTeleHaven.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		269993C32BBC0A8E00FBB016 /* DocTeleHavenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocTeleHavenApp.swift; sourceTree = "<group>"; };
+		269993C52BBC0A8E00FBB016 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		269993C72BBC0A9000FBB016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		269993CA2BBC0A9000FBB016 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		269993E52BBC0BDB00FBB016 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		269993E72BBC0C1400FBB016 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		269993E92BBC0C3000FBB016 /* RegisterationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterationView.swift; sourceTree = "<group>"; };
+		269993EC2BBC0C8300FBB016 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		269993EE2BBC0CCD00FBB016 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		269993F02BBC0CEB00FBB016 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		269993F42BBC0FCD00FBB016 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		269993BD2BBC0A8E00FBB016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263F2FD52BC4D96C00CCDC16 /* StreamVideoUIKit in Frameworks */,
+				263F2FD32BC4D96C00CCDC16 /* StreamVideoSwiftUI in Frameworks */,
+				263F2F752BBC151C00CCDC16 /* FirebaseFirestoreSwift in Frameworks */,
+				263F2F732BBC151C00CCDC16 /* FirebaseFirestore in Frameworks */,
+				263F2FD12BC4D96C00CCDC16 /* StreamVideo in Frameworks */,
+				263F2F772BBC151C00CCDC16 /* FirebaseStorage in Frameworks */,
+				263F2F6F2BBC151C00CCDC16 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		263F2F6D2BBC151C00CCDC16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		263F2FAF2BBDBB8D00CCDC16 /* SpalshScreen */ = {
+			isa = PBXGroup;
+			children = (
+				263F2FB02BBDBB9900CCDC16 /* SpalshView.swift */,
+			);
+			path = SpalshScreen;
+			sourceTree = "<group>";
+		};
+		263F2FB42BBEA65100CCDC16 /* PatientViews */ = {
+			isa = PBXGroup;
+			children = (
+				263F2FB72BBEA70A00CCDC16 /* PatientHomeView.swift */,
+				263F2FB52BBEA6ED00CCDC16 /* PatientUpcomingAppointmentView.swift */,
+				263F2FB92BBEA88800CCDC16 /* DoctorListView.swift */,
+				263F2FC22BBECDDF00CCDC16 /* DoctorDetailsView.swift */,
+				263F2FC42BBEE1D900CCDC16 /* BookingAppointmentView.swift */,
+				263F2FDB2BC6AE6800CCDC16 /* PatientAppointmentDetailsView.swift */,
+			);
+			path = PatientViews;
+			sourceTree = "<group>";
+		};
+		263F2FBB2BBEAFF600CCDC16 /* DoctorViews */ = {
+			isa = PBXGroup;
+			children = (
+				263F2FBC2BBEB00600CCDC16 /* DoctorHomeView.swift */,
+				263F2FBE2BBEBD3200CCDC16 /* DoctorUpcomingAppointmentView.swift */,
+				263F2FE32BC796AA00CCDC16 /* DoctorAppointmentDetailsView.swift */,
+			);
+			path = DoctorViews;
+			sourceTree = "<group>";
+		};
+		263F2FCC2BC3887D00CCDC16 /* GeneratingVideoLinkViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				263F2FCD2BC3889F00CCDC16 /* GenerateVideoViewModel.swift */,
+			);
+			path = GeneratingVideoLinkViewModel;
+			sourceTree = "<group>";
+		};
+		263F2FDD2BC70FA800CCDC16 /* VideoCallView */ = {
+			isa = PBXGroup;
+			children = (
+				263F2FE02BC73E3000CCDC16 /* ViewModel */,
+				263F2FDE2BC70FB500CCDC16 /* VideoCallView.swift */,
+			);
+			path = VideoCallView;
+			sourceTree = "<group>";
+		};
+		263F2FE02BC73E3000CCDC16 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				263F2FE12BC73E4100CCDC16 /* VideoCallManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		269993B72BBC0A8E00FBB016 = {
+			isa = PBXGroup;
+			children = (
+				269993C22BBC0A8E00FBB016 /* DocTeleHaven */,
+				269993C12BBC0A8E00FBB016 /* Products */,
+				263F2F6D2BBC151C00CCDC16 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		269993C12BBC0A8E00FBB016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				269993C02BBC0A8E00FBB016 /* DocTeleHaven.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		269993C22BBC0A8E00FBB016 /* DocTeleHaven */ = {
+			isa = PBXGroup;
+			children = (
+				263F2FDA2BC6376C00CCDC16 /* Info.plist */,
+				269993E22BBC0B8900FBB016 /* Core */,
+				269993E12BBC0B3B00FBB016 /* Components */,
+				269993E02BBC0B3900FBB016 /* App */,
+				269993DF2BBC0B3700FBB016 /* Model */,
+				269993C72BBC0A9000FBB016 /* Assets.xcassets */,
+				269993F42BBC0FCD00FBB016 /* GoogleService-Info.plist */,
+				269993C92BBC0A9000FBB016 /* Preview Content */,
+			);
+			path = DocTeleHaven;
+			sourceTree = "<group>";
+		};
+		269993C92BBC0A9000FBB016 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				269993CA2BBC0A9000FBB016 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		269993DC2BBC0B1300FBB016 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				269993DE2BBC0B2D00FBB016 /* ViewModel */,
+				269993DD2BBC0B1400FBB016 /* View */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		269993DD2BBC0B1400FBB016 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				269993E72BBC0C1400FBB016 /* LoginView.swift */,
+				269993E92BBC0C3000FBB016 /* RegisterationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		269993DE2BBC0B2D00FBB016 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				269993E52BBC0BDB00FBB016 /* AuthViewModel.swift */,
+				263F2FC02BBEC58B00CCDC16 /* DoctorViewModel.swift */,
+				263F2FC62BBEE33500CCDC16 /* AppointmentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		269993DF2BBC0B3700FBB016 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				263F2F9F2BBD563A00CCDC16 /* Appointment.swift */,
+				263F2FB22BBDC22800CCDC16 /* Users.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		269993E02BBC0B3900FBB016 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				269993C32BBC0A8E00FBB016 /* DocTeleHavenApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		269993E12BBC0B3B00FBB016 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				263F2FD62BC5E41200CCDC16 /* AppointmentRow.swift */,
+				269993EE2BBC0CCD00FBB016 /* InputView.swift */,
+				269993F02BBC0CEB00FBB016 /* SettingsRowView.swift */,
+				263F2FC82BBEF0C900CCDC16 /* CustomButton.swift */,
+				263F2FD82BC5E8D300CCDC16 /* AppointmentsListView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		269993E22BBC0B8900FBB016 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				263F2FDD2BC70FA800CCDC16 /* VideoCallView */,
+				263F2FCC2BC3887D00CCDC16 /* GeneratingVideoLinkViewModel */,
+				263F2FBB2BBEAFF600CCDC16 /* DoctorViews */,
+				263F2FB42BBEA65100CCDC16 /* PatientViews */,
+				263F2FAF2BBDBB8D00CCDC16 /* SpalshScreen */,
+				269993F22BBC0D6200FBB016 /* Root */,
+				269993EB2BBC0C7700FBB016 /* Profile */,
+				269993DC2BBC0B1300FBB016 /* Authentication */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		269993EB2BBC0C7700FBB016 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				269993EC2BBC0C8300FBB016 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		269993F22BBC0D6200FBB016 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				269993C52BBC0A8E00FBB016 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		269993BF2BBC0A8E00FBB016 /* DocTeleHaven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 269993CE2BBC0A9000FBB016 /* Build configuration list for PBXNativeTarget "DocTeleHaven" */;
+			buildPhases = (
+				269993BC2BBC0A8E00FBB016 /* Sources */,
+				269993BD2BBC0A8E00FBB016 /* Frameworks */,
+				269993BE2BBC0A8E00FBB016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DocTeleHaven;
+			packageProductDependencies = (
+				263F2F6E2BBC151C00CCDC16 /* FirebaseAuth */,
+				263F2F722BBC151C00CCDC16 /* FirebaseFirestore */,
+				263F2F742BBC151C00CCDC16 /* FirebaseFirestoreSwift */,
+				263F2F762BBC151C00CCDC16 /* FirebaseStorage */,
+				263F2FD02BC4D96C00CCDC16 /* StreamVideo */,
+				263F2FD22BC4D96C00CCDC16 /* StreamVideoSwiftUI */,
+				263F2FD42BC4D96C00CCDC16 /* StreamVideoUIKit */,
+			);
+			productName = DocTeleHaven;
+			productReference = 269993C02BBC0A8E00FBB016 /* DocTeleHaven.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		269993B82BBC0A8E00FBB016 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					269993BF2BBC0A8E00FBB016 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 269993BB2BBC0A8E00FBB016 /* Build configuration list for PBXProject "DocTeleHaven" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 269993B72BBC0A8E00FBB016;
+			packageReferences = (
+				269993D12BBC0B0C00FBB016 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				263F2FCF2BC4D96C00CCDC16 /* XCRemoteSwiftPackageReference "stream-video-swift" */,
+			);
+			productRefGroup = 269993C12BBC0A8E00FBB016 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				269993BF2BBC0A8E00FBB016 /* DocTeleHaven */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		269993BE2BBC0A8E00FBB016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269993CB2BBC0A9000FBB016 /* Preview Assets.xcassets in Resources */,
+				269993C82BBC0A9000FBB016 /* Assets.xcassets in Resources */,
+				269993F52BBC0FCD00FBB016 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		269993BC2BBC0A8E00FBB016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263F2FB62BBEA6ED00CCDC16 /* PatientUpcomingAppointmentView.swift in Sources */,
+				263F2FD92BC5E8D300CCDC16 /* AppointmentsListView.swift in Sources */,
+				263F2FC12BBEC58B00CCDC16 /* DoctorViewModel.swift in Sources */,
+				269993E62BBC0BDB00FBB016 /* AuthViewModel.swift in Sources */,
+				269993C62BBC0A8E00FBB016 /* ContentView.swift in Sources */,
+				263F2FB12BBDBB9900CCDC16 /* SpalshView.swift in Sources */,
+				263F2FA02BBD563A00CCDC16 /* Appointment.swift in Sources */,
+				263F2FDC2BC6AE6800CCDC16 /* PatientAppointmentDetailsView.swift in Sources */,
+				263F2FBF2BBEBD3200CCDC16 /* DoctorUpcomingAppointmentView.swift in Sources */,
+				263F2FC72BBEE33500CCDC16 /* AppointmentViewModel.swift in Sources */,
+				263F2FB82BBEA70A00CCDC16 /* PatientHomeView.swift in Sources */,
+				263F2FDF2BC70FB500CCDC16 /* VideoCallView.swift in Sources */,
+				263F2FB32BBDC22800CCDC16 /* Users.swift in Sources */,
+				263F2FE42BC796AA00CCDC16 /* DoctorAppointmentDetailsView.swift in Sources */,
+				263F2FC32BBECDDF00CCDC16 /* DoctorDetailsView.swift in Sources */,
+				269993C42BBC0A8E00FBB016 /* DocTeleHavenApp.swift in Sources */,
+				269993EA2BBC0C3000FBB016 /* RegisterationView.swift in Sources */,
+				263F2FBA2BBEA88800CCDC16 /* DoctorListView.swift in Sources */,
+				263F2FD72BC5E41200CCDC16 /* AppointmentRow.swift in Sources */,
+				263F2FCE2BC3889F00CCDC16 /* GenerateVideoViewModel.swift in Sources */,
+				269993E82BBC0C1400FBB016 /* LoginView.swift in Sources */,
+				263F2FC52BBEE1D900CCDC16 /* BookingAppointmentView.swift in Sources */,
+				269993EF2BBC0CCD00FBB016 /* InputView.swift in Sources */,
+				269993ED2BBC0C8400FBB016 /* ProfileView.swift in Sources */,
+				263F2FC92BBEF0C900CCDC16 /* CustomButton.swift in Sources */,
+				263F2FBD2BBEB00600CCDC16 /* DoctorHomeView.swift in Sources */,
+				269993F12BBC0CEB00FBB016 /* SettingsRowView.swift in Sources */,
+				263F2FE22BC73E4100CCDC16 /* VideoCallManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		269993CC2BBC0A9000FBB016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		269993CD2BBC0A9000FBB016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		269993CF2BBC0A9000FBB016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DocTeleHaven/Preview Content\"";
+				DEVELOPMENT_TEAM = VXYVW9N9WJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DocTeleHaven/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow access to video during call.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please allow access to audio during call.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggy.DocTeleHaven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		269993D02BBC0A9000FBB016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DocTeleHaven/Preview Content\"";
+				DEVELOPMENT_TEAM = VXYVW9N9WJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DocTeleHaven/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow access to video during call.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please allow access to audio during call.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggy.DocTeleHaven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		269993BB2BBC0A8E00FBB016 /* Build configuration list for PBXProject "DocTeleHaven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269993CC2BBC0A9000FBB016 /* Debug */,
+				269993CD2BBC0A9000FBB016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		269993CE2BBC0A9000FBB016 /* Build configuration list for PBXNativeTarget "DocTeleHaven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269993CF2BBC0A9000FBB016 /* Debug */,
+				269993D02BBC0A9000FBB016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		263F2FCF2BC4D96C00CCDC16 /* XCRemoteSwiftPackageReference "stream-video-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GetStream/stream-video-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.3;
+			};
+		};
+		269993D12BBC0B0C00FBB016 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.23.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		263F2F6E2BBC151C00CCDC16 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 269993D12BBC0B0C00FBB016 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		263F2F722BBC151C00CCDC16 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 269993D12BBC0B0C00FBB016 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		263F2F742BBC151C00CCDC16 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 269993D12BBC0B0C00FBB016 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		263F2F762BBC151C00CCDC16 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 269993D12BBC0B0C00FBB016 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		263F2FD02BC4D96C00CCDC16 /* StreamVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 263F2FCF2BC4D96C00CCDC16 /* XCRemoteSwiftPackageReference "stream-video-swift" */;
+			productName = StreamVideo;
+		};
+		263F2FD22BC4D96C00CCDC16 /* StreamVideoSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 263F2FCF2BC4D96C00CCDC16 /* XCRemoteSwiftPackageReference "stream-video-swift" */;
+			productName = StreamVideoSwiftUI;
+		};
+		263F2FD42BC4D96C00CCDC16 /* StreamVideoUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 263F2FCF2BC4D96C00CCDC16 /* XCRemoteSwiftPackageReference "stream-video-swift" */;
+			productName = StreamVideoUIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 269993B82BBC0A8E00FBB016 /* Project object */;
+}
